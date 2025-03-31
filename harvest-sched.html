@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zone 6 Harvest and Storage Swim Chart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding-top: 80px; /* Add space for fixed header */
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: white;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            z-index: 1000;
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .header a {
+            text-decoration: none;
+            color: #1a73e8;
+            margin-top: 5px;
+            display: inline-block;
+        }
+        .header a:hover {
+            text-decoration: underline;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            font-family: Arial, sans-serif;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .crop {
+            text-align: left;
+            font-weight: bold;
+            width: 10%
+        }
+        .veg {
+            background-color: #e2c312; /* Brownish yellow */
+        }
+        .fruit {
+            background-color: #800080; /* Purple */
+            color: white; /* White text for contrast */
+        }
+        .herb {
+            background-color: #d44f08; /* Darker marigold */
+        }
+        .nut {
+            background-color: #5C4033; /* Chocolate brown */
+            color: white; /* White text for contrast */
+        }
+        .harvest {
+            color: #1dac01; /* Vibrant green */
+            font-weight: bold;
+        }
+        .stored {
+            color: #e141be; /* Bright pink */
+            font-weight: bold;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Zone 6 Harvest Schedule</h1>
+        <div>
+            <a href="heirlooms.html">Heirloom Varieties</a> | 
+            <a href="by-month.html">Crops by Month</a>
+        </div>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Crop</th>
+                <th><a href="by-month.html#january">Jan</a></th>
+                <th><a href="by-month.html#february">Feb</a></th>
+                <th><a href="by-month.html#march">Mar</a></th>
+                <th><a href="by-month.html#april">Apr</a></th>
+                <th><a href="by-month.html#may">May</a></th>
+                <th><a href="by-month.html#june">Jun</a></th>
+                <th><a href="by-month.html#july">Jul</a></th>
+                <th><a href="by-month.html#august">Aug</a></th>
+                <th><a href="by-month.html#september">Sep</a></th>
+                <th><a href="by-month.html#october">Oct</a></th>
+                <th><a href="by-month.html#november">Nov</a></th>
+                <th><a href="by-month.html#december">Dec</a></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td class="crop herb"><a href="heirlooms.html#chickweed">Chickweed*</a></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="crop herb"><a href="heirlooms.html#english-lavender">English Lavender</a></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="crop herb"><a href="heirlooms.html#nj-tea">NJ Tea</a></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="crop herb"><a href="heirlooms.html#sweet-woodruff">Sweet Woodruff</a></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="crop herb"><a href="heirlooms.html#chives">Chives</a></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#cress">Cress</a></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td></tr>
+            <tr><td class="crop herb"><a href="heirlooms.html#dandelion-greens">Dandelion Greens*</a></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="crop herb"><a href="heirlooms.html#nettles">Nettles*</a></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#rhubarb">Rhubarb</a></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="crop herb"><a href="heirlooms.html#wild-garlic">Wild Garlic*</a></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#asparagus">Asparagus</a></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#endive-frisee">Endive/Frisée</a></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#kale-overwintered">Kale (Overwintered)</a></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#leeks">Leeks</a></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="stored">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="crop herb"><a href="heirlooms.html#parsley">Parsley</a></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td></tr>
+            <tr><td class="crop herb"><a href="heirlooms.html#ramps">Ramps*</a></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#spinach-overwintered">Spinach (Overwintered)</a></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="crop herb"><a href="heirlooms.html#sweet-cicely">Sweet Cicely*</a></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="stored">X</td><td></td></tr>
+            <tr><td class="crop herb"><a href="heirlooms.html#wood-sorrel">Wood Sorrel*</a></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#arugula">Arugula</a></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#bok-choy">Bok Choy</a></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#kohlrabi">Kohlrabi</a></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="stored">X</td><td></td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#mizuna">Mizuna</a></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#radishes">Radishes</a></td><td class="stored">X</td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="stored">X</td><td class="stored">X</td></tr>
+            <tr><td class="crop herb"><a href="heirlooms.html#agastache">Agastache*</a></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#collard-greens">Collard Greens</a></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td></tr>
+            <tr><td class="crop herb"><a href="heirlooms.html#monarda">Monarda*</a></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td></tr>
+            <tr><td class="crop herb"><a href="heirlooms.html#mountain-mint">Mountain Mint*</a></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#mustard-greens">Mustard Greens</a></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td></tr>
+            <tr><td class="crop fruit"><a href="heirlooms.html#strawberries">Strawberries</a></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#swiss-chard">Swiss Chard</a></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#turnip-greens">Turnip Greens</a></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td></tr>
+            <tr><td class="crop fruit"><a href="heirlooms.html#cherries">Cherries</a></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="crop herb"><a href="heirlooms.html#garlic">Garlic</a></td><td class="stored">X</td><td class="stored">X</td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td><td></td><td class="stored">X</td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#lettuce">Lettuce</a></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#peas">Peas</a></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="crop fruit"><a href="heirlooms.html#raspberries">Raspberries*</a></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="crop fruit"><a href="heirlooms.html#serviceberries">Serviceberries*</a></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#spinach">Spinach</a></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="crop fruit"><a href="heirlooms.html#blackberries">Blackberries*</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td></tr>
+            <tr><td class="crop fruit"><a href="heirlooms.html#blueberries">Blueberries*</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#cucumbers">Cucumbers</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#green-beans">Green Beans</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td></tr>
+            <tr><td class="crop herb"><a href="heirlooms.html#onions">Onions</a></td><td class="stored">X</td><td class="stored">X</td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td><td class="stored">X</td></tr>
+            <tr><td class="crop fruit"><a href="heirlooms.html#peaches">Peaches</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td></tr>
+            <tr><td class="crop fruit"><a href="heirlooms.html#plums">Plums*</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td></tr>
+            <tr><td class="crop herb"><a href="heirlooms.html#sumac">Sumac*</a></td><td class="stored">X</td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td class="stored">X</td><td class="stored">X</td><td class="stored">X</td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#sweet-corn">Sweet Corn</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#tomatoes">Tomatoes</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#zucchini-summer-squash">Zucchini/Summer Squash</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td></tr>
+            <tr><td class="crop fruit"><a href="heirlooms.html#apples">Apples</a></td><td class="stored">X</td><td class="stored">X</td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td class="stored">X</td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#eggplant">Eggplant</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td></tr>
+            <tr><td class="crop fruit"><a href="heirlooms.html#elderberries">Elderberries*</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td></tr>
+            <tr><td class="crop fruit"><a href="heirlooms.html#melons">Melons</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td></tr>
+            <tr><td class="crop fruit"><a href="heirlooms.html#pawpaws">Pawpaws*</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#peppers">Peppers</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td></tr>
+            <tr><td class="crop herb"><a href="heirlooms.html#spicebush">Spicebush*</a></td><td class="stored">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td class="stored">X</td><td class="stored">X</td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#broccoli">Broccoli</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td></tr>
+            <tr><td class="crop fruit"><a href="heirlooms.html#grapes">Grapes*</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td></tr>
+            <tr><td class="crop nut"><a href="heirlooms.html#hazelnuts">Hazelnuts*</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="stored">X</td><td class="stored">X</td></tr>
+            <tr><td class="crop fruit"><a href="heirlooms.html#pears">Pears</a></td><td class="stored">X</td><td class="stored">X</td><td class="stored">X</td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="stored">X</td><td class="stored">X</td></tr>
+            <tr><td class="crop fruit"><a href="heirlooms.html#pomegranates">Pomegranates</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="stored">X</td><td class="stored">X</td><td class="stored">X</td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#pumpkins">Pumpkins</a></td><td class="stored">X</td><td class="stored">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="stored">X</td><td class="stored">X</td></tr>
+            <tr><td class="crop fruit"><a href="heirlooms.html#quince">Quince</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="stored">X</td><td class="stored">X</td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#winter-squash">Winter Squash</a></td><td class="stored">X</td><td class="stored">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="stored">X</td><td class="stored">X</td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#beets">Beets</a></td><td class="stored">X</td><td class="stored">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="stored">X</td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#brussels-sprouts">Brussels Sprouts</a></td><td class="stored">X</td><td class="stored">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="stored">X</td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#cabbage">Cabbage</a></td><td class="stored">X</td><td class="stored">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="stored">X</td><td class="stored">X</td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#celeriac">Celeriac</a></td><td class="stored">X</td><td class="stored">X</td><td class="stored">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="stored">X</td></tr>
+            <tr><td class="crop herb"><a href="heirlooms.html#cyperus-longus">Cyperus longus*</a></td><td class="stored">X</td><td class="stored">X</td><td class="stored">X</td><td class="stored">X</td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#potatoes">Potatoes</a></td><td class="stored">X</td><td class="stored">X</td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td class="stored">X</td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#rutabaga">Rutabaga</a></td><td class="stored">X</td><td class="stored">X</td><td class="stored">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="stored">X</td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#salsify">Salsify</a></td><td class="stored">X</td><td class="stored">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="stored">X</td></tr>
+            <tr><td class="crop herb"><a href="heirlooms.html#sassafras">Sassafras*</a></td><td class="stored">X</td><td class="stored">X</td><td class="stored">X</td><td class="stored">X</td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="stored">X</td></tr>
+            <tr><td class="crop nut"><a href="heirlooms.html#walnuts">Walnuts</a></td><td class="stored">X</td><td class="stored">X</td><td class="stored">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="stored">X</td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#sweet-potatoes">Sweet Potatoes</a></td><td class="stored">X</td><td class="stored">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td class="stored">X</td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#kale">Kale</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#turnips">Turnips</a></td><td class="stored">X</td><td class="stored">X</td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td></tr>
+            <tr><td class="crop veg"><a href="heirlooms.html#parsnips">Parsnips</a></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td class="harvest">X</td><td class="harvest">X</td><td class="harvest">X</td></tr>
+            <tr><td class="crop fruit"><a href="heirlooms.html#limes">Limes</a></td><td></td><td></td><td></td><td class="stored">X</td><td class="stored">X</td><td class="stored">X</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="crop fruit"><a href="heirlooms.html#grapefruit">Grapefruit</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="stored">X</td><td class="stored">X</td><td class="stored">X</td></tr>
+            <tr><td class="crop fruit"><a href="heirlooms.html#oranges">Oranges</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="stored">X</td><td class="stored">X</td><td class="stored">X</td></tr>
+            <tr><td class="crop fruit"><a href="heirlooms.html#kiwi">Kiwi</a></td><td class="stored">X</td><td class="stored">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="stored">X</td><td class="stored">X</td></tr>
+            <tr><td class="crop fruit"><a href="heirlooms.html#mandarins">Mandarins</a></td><td class="stored">X</td><td class="stored">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="stored">X</td><td class="stored">X</td></tr>
+            <tr><td class="crop fruit"><a href="heirlooms.html#lemons">Lemons</a></td><td class="stored">X</td><td class="stored">X</td><td class="stored">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td class="crop fruit"><a href="heirlooms.html#tangerines">Tangerines</a></td><td class="stored">X</td><td class="stored">X</td><td class="stored">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="stored">X</td></tr>
+            <tr><td class="crop fruit"><a href="heirlooms.html#avocados">Avocados</a></td><td></td><td class="stored">X</td><td class="stored">X</td><td class="stored">X</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        </tbody>
+    </table>
+</body>
+</html>
+    

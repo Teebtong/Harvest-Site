@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heirloom Varieties - Zone 6</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding-top: 80px; /* Add space for fixed header */
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: white;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            z-index: 1000;
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .header a {
+            text-decoration: none;
+            color: #1a73e8;
+            margin-top: 5px;
+            display: inline-block;
+        }
+        .header a:hover {
+            text-decoration: underline;
+        }
+        h2 {
+            margin-top: 40px;
+            scroll-margin-top: 100px;
+        }
+        .veg h2 {
+            color: #D4A017; /* Brownish yellow */
+        }
+        .fruit h2 {
+            color: #800080; /* Purple */
+        }
+
+        .herb h2 {
+            color: #d44f08; /* Darker marigold */
+        }
+
+        .nut  h2{
+            color: #5C4033; /* Chocolate brown */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+            table-layout: fixed;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            overflow-wrap: break-word;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        a {
+            text-decoration: none;
+            color: #1a73e8;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        /* Set specific column widths */
+        th:nth-child(1), td:nth-child(1) {
+            width: 25%;
+        }
+        th:nth-child(2), td:nth-child(2) {
+            width: 25%;
+        }
+        th:nth-child(3), td:nth-child(3) {
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Heirloom Varieties - Zone 6</h1>
+        <div>
+            <a href="harvest-sched.html">Harvest Schedule</a> | 
+            <a href="by-month.html">Crops by Month</a>
+        </div>
+    </div>
+
+    <!-- Vegetables -->
+    <div class="veg">
+        <h2 id="arugula">Arugula</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Slow Bolt</td><td>Pre-1900s, USA</td><td>Adapted for PA's cool springs and falls; Seed Savers Exchange</td></tr>
+            <tr><td>Astro</td><td>20th century, USA</td><td>Grown in PA for mild flavor; common in local organic farms</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="asparagus">Asparagus</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Mary Washington</td><td>Early 1900s, USA</td><td>PA garden staple; tender, prolific spears (Seed Savers Exchange)</td></tr>
+            <tr><td>Precoce d'Argenteuil</td><td>Pre-1900s, France</td><td>Grown by PA's early settlers; sweet, early variety</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="beets">Beets</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Deacon Dan</td><td>19th century, PA</td><td>Preserved by Mennonite deacon Daniel Burkholder, Lancaster County; Roughwood</td></tr>
+            <tr><td>Detroit Dark Red</td><td>1892, USA</td><td>PA Dutch favorite; sweet, deep red roots (Seed Savers Exchange)</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="bok-choy">Bok Choy</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Ching-Chiang</td><td>Pre-1900s, China</td><td>Grown by PA's Asian communities; suited to Zone 6 cool seasons</td></tr>
+            <tr><td>Joi Choi</td><td>20th century, Asia</td><td>Popular in PA for bolt resistance; Seed Savers Exchange</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="broccoli">Broccoli</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>De Cicco</td><td>Pre-1900s, Italy</td><td>Grown by PA's Italian immigrants; small heads, long harvest</td></tr>
+            <tr><td>Waltham 29</td><td>1950s, USA</td><td>Popular in PA for cold tolerance; Seed Savers Exchange</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="brussels-sprouts">Brussels Sprouts</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Long Island Improved</td><td>1890s, USA</td><td>PA gardeners' choice; compact, sweet sprouts (Seed Savers Exchange)</td></tr>
+            <tr><td>Catskill</td><td>1940s, New York</td><td>Grown in PA for its frost-hardy, large sprouts</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="cabbage">Cabbage</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Early Jersey Wakefield</td><td>1840s, New Jersey</td><td>PA Dutch staple, grown in Lancaster for early harvest</td></tr>
+            <tr><td>Mammoth Red Rock</td><td>1889, USA</td><td>Red cabbage favored in PA for storage and pickling; Seed Savers Exchange</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="celeriac">Celeriac</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Giant Prague</td><td>1871, Czech Republic</td><td>Grown by PA's Eastern European settlers; large, flavorful roots</td></tr>
+            <tr><td>Brilliant</td><td>Pre-1900s, Europe</td><td>PA gardeners' pick for storage; Roughwood Seed Collection</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="collard-greens">Collard Greens</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Georgia Southern</td><td>Pre-1900s, Southern USA</td><td>Grown in PA's southeast by African American communities; frost-tolerant</td></tr>
+            <tr><td>Champion</td><td>20th century, USA</td><td>Adapted for PA's cool falls; popular among local gardeners</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="cress">Cress</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Upland Cress</td><td>Pre-1800s, Europe</td><td>Foraged and grown in PA's damp soils; colonial staple</td></tr>
+            <tr><td>True Watercress</td><td>Pre-1800s, Europe</td><td>Cultivated along PA streams; Roughwood Seed Collection</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="cucumbers">Cucumbers</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Boston Pickling</td><td>1877, USA</td><td>PA Dutch pickling favorite; small, crisp fruits</td></tr>
+            <tr><td>Straight Eight</td><td>1935, USA</td><td>Grown widely in PA gardens; Seed Savers Exchange staple</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="eggplant">Eggplant</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Black Beauty</td><td>1902, USA</td><td>PA garden classic; large, dark fruits (Seed Savers Exchange)</td></tr>
+            <tr><td>Listada de Gandia</td><td>Pre-1900s, Spain</td><td>Grown by PA's Mediterranean immigrants; striped, tender</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="endive-frisee">Endive/Frisée</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Broadleaf Batavian</td><td>Pre-1800s, Europe</td><td>Grown by PA Dutch for bitter leaves; Seed Savers Exchange</td></tr>
+            <tr><td>Curly Endive</td><td>Pre-1800s, Europe</td><td>Colonial PA garden variety; suited to Zone 6 cool seasons</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="green-beans">Green Beans</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Fisher</td><td>Pre-1900s, PA</td><td>PA Dutch heirloom from Lancaster County; Roughwood Seed Collection</td></tr>
+            <tr><td>Kentucky Wonder</td><td>1850s, Kentucky</td><td>Widely grown in PA for stringless pods; Seed Savers Exchange</td></tr>
+            <tr><td>Blue Lake</td><td>Early 1900s, Oregon</td><td>PA gardeners' choice for flavor; popular bush variety</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="kale">Kale</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Lacinato (Dinosaur)</td><td>Pre-1800s, Italy</td><td>Grown in PA for dark, tender leaves; popular among gardeners</td></tr>
+            <tr><td>Red Russian</td><td>Pre-1900s, Russia</td><td>Introduced by PA's Eastern European settlers; frost-hardy</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="kale-overwintered">Kale (Overwintered)</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Siberian</td><td>Pre-1900s, Russia</td><td>Favored by PA growers for overwintering; Seed Savers Exchange</td></tr>
+            <tr><td>Scotch Curled</td><td>Pre-1800s, Scotland</td><td>PA Dutch variety for cold tolerance; Roughwood Seed Collection</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="leeks">Leeks</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>American Flag</td><td>Pre-1900s, USA</td><td>Grown widely in PA for thick, mild stalks; Seed Savers Exchange</td></tr>
+            <tr><td>Blue Solaise</td><td>Pre-1800s, France</td><td>PA gardeners' choice for overwintering; frost-hardy</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="lettuce">Lettuce</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Deer Tongue</td><td>Pre-1800s, USA</td><td>Preserved by PA Dutch; Landis Valley Heirloom Seed Project</td></tr>
+            <tr><td>Black Seeded Simpson</td><td>1850s, USA</td><td>PA garden classic for tender leaves; Seed Savers Exchange</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="mizuna">Mizuna</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Early Mizuna</td><td>Pre-1900s, Japan</td><td>Grown in PA for mild mustard flavor; suited to cool seasons</td></tr>
+            <tr><td>Kyona</td><td>Pre-1900s, Japan</td><td>Introduced by PA's Asian communities; Seed Savers Exchange</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="mustard-greens">Mustard Greens</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Southern Giant Curled</td><td>Pre-1900s, Southern USA</td><td>Grown in PA's southeast; frost-tolerant (Seed Savers Exchange)</td></tr>
+            <tr><td>Osaka Purple</td><td>Pre-1900s, Japan</td><td>PA gardeners' pick for color and flavor; adapted to Zone 6</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="onions">Onions</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Red Wethersfield</td><td>1700s, Connecticut</td><td>PA farmstead classic by 1800s; deep red, pungent</td></tr>
+            <tr><td>Yellow Flat Dutch</td><td>Pre-1800s, USA</td><td>Possibly refined by PA Dutch; flat, storable (Roughwood)</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="parsnips">Parsnips</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Hollow Crown</td><td>Pre-1820s, England</td><td>Colonial PA favorite; sweet, frost-enhanced roots</td></tr>
+            <tr><td>Deacon Dan</td><td>19th century, PA</td><td>Preserved by Mennonite deacon Daniel Burkholder, Lancaster; Roughwood</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="peas">Peas</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Grandma Hershey's Sugar</td><td>Pre-1900s, PA</td><td>PA Dutch heirloom; sweet, edible-pod (Landis Valley Heirloom Seed Project)</td></tr>
+            <tr><td>Thomas Laxton</td><td>1898, England</td><td>Grown in PA for early, sweet peas; Seed Savers Exchange</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="peppers">Peppers</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>King of the North</td><td>Pre-1900s, USA</td><td>Bred for Northern climates like PA; sweet red bell</td></tr>
+            <tr><td>Fish Pepper</td><td>Pre-1900s, Mid-Atlantic</td><td>African American heirloom from Philly/Baltimore; spicy, variegated</td></tr>
+            <tr><td>Jimmy Nardello</td><td>Pre-1900s, Italy</td><td>Grown by PA's Italian immigrants; sweet, frying type</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="potatoes">Potatoes</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Neshannock</td><td>1797, Lawrence County, PA</td><td>Bred by John Gilkey; red skin, white flesh, 19th-century staple (Slow Food Ark)</td></tr>
+            <tr><td>Mercer</td><td>Pre-1900s, Mercer County, PA</td><td>White-fleshed variety tied to local history; Roughwood Seed Collection</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="pumpkins">Pumpkins</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Connecticut Field</td><td>Pre-1700s, USA</td><td>Native American variety grown in PA; large, carving type</td></tr>
+            <tr><td>Small Sugar</td><td>Pre-1860s, USA</td><td>PA favorite for pies; sweet, small fruits</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="rhubarb">Rhubarb</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Victoria</td><td>1837, England</td><td>PA Dutch favorite for sweet-tart stalks; widely grown in Zone 6</td></tr>
+            <tr><td>MacDonald</td><td>20th century, Canada</td><td>Popular in PA for early harvest; Seed Savers Exchange</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="rutabaga">Rutabaga</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>American Purple Top</td><td>Pre-1900s, USA</td><td>PA garden staple; sweet, purple-topped roots</td></tr>
+            <tr><td>Laurentian</td><td>Early 1900s, Canada</td><td>Grown in PA for storage; frost-hardy (Seed Savers Exchange)</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="salsify">Salsify</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Mammoth Sandwich Island</td><td>Pre-1900s, USA</td><td>Grown in PA for its long, oyster-flavored roots; Seed Savers Exchange</td></tr>
+            <tr><td>Black Salsify</td><td>Pre-1800s, Europe</td><td>PA colonial variety; dark, flavorful roots</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="spinach">Spinach</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Bloomsdale Long Standing</td><td>1925, USA</td><td>PA garden classic for savoyed leaves; Seed Savers Exchange</td></tr>
+            <tr><td>America</td><td>Pre-1900s, USA</td><td>Grown in PA for bolt resistance; Roughwood Seed Collection</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="spinach-overwintered">Spinach (Overwintered)</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Winter Bloomsdale</td><td>20th century, USA</td><td>Bred for PA's cold winters; overwintering favorite</td></tr>
+            <tr><td>Giant Winter</td><td>Pre-1900s, Europe</td><td>PA growers' choice for frost tolerance; Seed Savers Exchange</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="sweet-corn">Sweet Corn</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Lenape Blue</td><td>Pre-Columbian, PA</td><td>Indigenous Lenape variety; rematriated by TrueLove Seeds in PA</td></tr>
+            <tr><td>Golden Bantam</td><td>1902, Massachusetts</td><td>PA farm classic; sweet, yellow kernels</td></tr>
+            <tr><td>Country Gentleman</td><td>1890s, USA</td><td>Grown in PA for white, shoepeg kernels; Seed Savers Exchange</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="sweet-potatoes">Sweet Potatoes</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Red Jersey</td><td>1880s, New Jersey</td><td>Adapted by PA Mennonite growers in southeast PA</td></tr>
+            <tr><td>Nancy Hall</td><td>Pre-1900s, Southern USA</td><td>Grown in PA's warmer microclimates (e.g., Lancaster)</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="swiss-chard">Swiss Chard</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Fordhook Giant</td><td>1924, USA</td><td>Grown widely in PA for large, tender leaves; Seed Savers Exchange</td></tr>
+            <tr><td>Ruby Red</td><td>Pre-1900s, Europe</td><td>PA garden staple for vibrant stalks; Roughwood Seed Collection</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="tomatoes">Tomatoes</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Brandywine</td><td>1885, Pennsylvania</td><td>Bred in Chester County, PA by Amish; pink, beefsteak classic</td></tr>
+            <tr><td>Amish Paste</td><td>Pre-1900s, Pennsylvania</td><td>PA Dutch heirloom from Lancaster; plum-shaped, meaty</td></tr>
+            <tr><td>Rutgers</td><td>1934, New Jersey</td><td>Widely grown in PA for canning; regional favorite</td></tr>
+            <tr><td>Cherokee Purple</td><td>Pre-1900s, Tennessee</td><td>Popular in PA gardens for dark, rich flavor</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="turnip-greens">Turnip Greens</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Shogoin</td><td>Pre-1900s, Japan</td><td>Grown in PA for tender greens; Seed Savers Exchange</td></tr>
+            <tr><td>Seven Top</td><td>Pre-1900s, Southern USA</td><td>PA growers' choice for leaf production over roots</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="turnips">Turnips</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Purple Top White Globe</td><td>Pre-1860, USA</td><td>Staple in PA Dutch gardens; widely grown in 19th-century PA</td></tr>
+            <tr><td>Gilfeather</td><td>Late 1800s, Vermont</td><td>Adopted by PA growers for mild, creamy roots; Roughwood</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="winter-squash">Winter Squash</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Waltham Butternut</td><td>1940s, Massachusetts</td><td>PA gardeners' staple for sweet, nutty flesh</td></tr>
+            <tr><td>Pennsylvania Dutch Crookneck</td><td>Pre-1900s, Pennsylvania</td><td>PA Dutch heirloom; long-necked, creamy squash</td></tr>
+        </table>
+    </div>
+
+    <div class="veg">
+        <h2 id="zucchini-summer-squash">Zucchini/Summer Squash</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Cocozelle</td><td>Pre-1900s, Italy</td><td>Grown by PA's Italian immigrants; striped, tender</td></tr>
+            <tr><td>Early Prolific Straightneck</td><td>1938, USA</td><td>PA garden favorite; yellow, straight fruits</td></tr>
+        </table>
+    </div>
+
+    <!-- Fruits -->
+    <div class="fruit">
+        <h2 id="apples">Apples</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Spitzenberg</td><td>Pre-1700s, USA</td><td>Favored by PA settlers; Jefferson's pick, colonial orchards</td></tr>
+            <tr><td>Mammoth Blacktwig</td><td>1830s, Tennessee</td><td>PA orchard staple; large, tart, long-keeping (Roughwood)</td></tr>
+            <tr><td>Smokehouse</td><td>1830s, Lancaster County, PA</td><td>Bred by William Gibbons; crisp, sweet-tart</td></tr>
+        </table>
+    </div>
+
+    <div class="fruit">
+        <h2 id="avocados">Avocados</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Hass</td><td>1926, California</td><td>Peak CA/Mexico variety available in PA markets; creamy</td></tr>
+            <tr><td>Fuerte</td><td>Pre-1900s, Mexico</td><td>Early CA strain sold in PA; smooth, green flesh</td></tr>
+        </table>
+    </div>
+
+    <div class="fruit">
+        <h2 id="blackberries">Blackberries</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Chester Thornless</td><td>20th century, USA</td><td>Grown in PA; large, sweet berries</td></tr>
+            <tr><td>Allegheny</td><td>Pre-1900s, PA</td><td>Native PA wild variety; tart, juicy (Roughwood)</td></tr>
+        </table>
+    </div>
+
+    <div class="fruit">
+        <h2 id="blueberries">Blueberries</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Rabbiteye</td><td>Pre-1900s, Southern USA</td><td>Grown in PA's southeast; native lineage adapted north</td></tr>
+            <tr><td>Jersey</td><td>1928, New Jersey</td><td>PA gardeners' favorite; large, sweet (Seed Savers Exchange)</td></tr>
+        </table>
+    </div>
+
+    <div class="fruit">
+        <h2 id="cherries">Cherries</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Black Tartarian</td><td>Pre-1800s, Russia</td><td>PA orchard classic; dark, sweet (Seed Savers Exchange)</td></tr>
+            <tr><td>Early Richmond</td><td>Pre-1800s, England</td><td>Grown in PA for pies; tart, early-ripening</td></tr>
+        </table>
+    </div>
+
+    <div class="fruit">
+        <h2 id="elderberries">Elderberries</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Adams</td><td>1926, New York</td><td>Grown in PA; large, juicy berries, native cultivar</td></tr>
+            <tr><td>York</td><td>1964, New York</td><td>PA foragers' and gardeners' pick; productive native strain</td></tr>
+        </table>
+    </div>
+
+    <div class="fruit">
+        <h2 id="grapefruit">Grapefruit</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Ruby Red</td><td>1929, Texas</td><td>Peak FL/TX variety in PA markets; sweet-tart</td></tr>
+            <tr><td>Marsh</td><td>1860s, Florida</td><td>Classic white grapefruit sold in PA; Seed Savers Exchange</td></tr>
+        </table>
+    </div>
+
+    <div class="fruit">
+        <h2 id="grapes">Grapes</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Concord</td><td>1853, Massachusetts</td><td>PA vineyard staple; sweet, purple, native Vitis labrusca</td></tr>
+            <tr><td>Catawba</td><td>Early 1800s, USA</td><td>Grown in PA since colonial times; pink, versatile (Roughwood)</td></tr>
+        </table>
+    </div>
+
+    <div class="fruit">
+        <h2 id="kiwi">Kiwi</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Hayward</td><td>1920s, New Zealand</td><td>Peak CA variety in PA markets; sweet, green flesh</td></tr>
+            <tr><td>Baby Kiwi (Arguta)</td><td>Pre-1900s, Asia</td><td>Available in PA; small, edible skin (Seed Savers Exchange)</td></tr>
+        </table>
+    </div>
+
+    <div class="fruit">
+        <h2 id="lemons">Lemons</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Eureka</td><td>1850s, California</td><td>Peak CA variety in PA markets; tart, juicy</td></tr>
+            <tr><td>Meyer</td><td>Pre-1900s, China</td><td>Sold in PA; sweet-tart hybrid</td></tr>
+        </table>
+    </div>
+
+    <div class="fruit">
+        <h2 id="limes">Limes</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Persian (Bearss)</td><td>Pre-1900s, Middle East</td><td>Peak FL/CA variety in PA markets; juicy, seedless</td></tr>
+            <tr><td>Key Lime</td><td>Pre-1900s, Florida</td><td>Sold in PA; tart, small fruits</td></tr>
+        </table>
+    </div>
+
+    <div class="fruit">
+        <h2 id="mandarins">Mandarins</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Satsuma</td><td>Pre-1900s, Japan</td><td>Peak FL/CA variety in PA markets; sweet, seedless</td></tr>
+            <tr><td>Clementine</td><td>1902, Algeria</td><td>Sold in PA; small, easy-peel</td></tr>
+        </table>
+    </div>
+
+    <div class="fruit">
+        <h2 id="melons">Melons</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Moon and Stars</td><td>Pre-1900s, USA</td><td>Grown in PA; sweet, speckled flesh (Seed Savers Exchange)</td></tr>
+            <tr><td>Jenny Lind</td><td>1840s, USA</td><td>PA gardeners' choice; small, green-fleshed cantaloupe</td></tr>
+        </table>
+    </div>
+
+    <div class="fruit">
+        <h2 id="oranges">Oranges</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Valencia</td><td>1870s, California</td><td>Peak FL/CA variety in PA markets; sweet, juicy</td></tr>
+            <tr><td>Hamlin</td><td>1879, Florida</td><td>Sold in PA; early, sweet orange</td></tr>
+        </table>
+    </div>
+
+    <div class="fruit">
+        <h2 id="pawpaws">Pawpaws</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Pennsylvania Golden</td><td>20th century, PA</td><td>Bred in PA; sweet, yellow flesh (Roughwood Seed Collection)</td></tr>
+            <tr><td>Overleese</td><td>1950s, Indiana</td><td>Grown in PA; large, creamy fruits</td></tr>
+        </table>
+    </div>
+
+    <div class="fruit">
+        <h2 id="peaches">Peaches</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Indian Cling</td><td>Pre-1800s, USA</td><td>Grown in PA; rich, clingstone flavor, colonial heirloom</td></tr>
+            <tr><td>Redhaven</td><td>1940s, Michigan</td><td>PA orchard standard; sweet, freestone (Seed Savers Exchange)</td></tr>
+        </table>
+    </div>
+
+    <div class="fruit">
+        <h2 id="pears">Pears</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Seckel</td><td>Late 1700s, Philadelphia, PA</td><td>Bred near Philly; small, sweet, Slow Food Ark</td></tr>
+            <tr><td>Tyson</td><td>Early 1800s, Chester County, PA</td><td>Bred by William Tyson; yellow, juicy, early-ripening</td></tr>
+        </table>
+    </div>
+
+    <div class="fruit">
+        <h2 id="plums">Plums</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Green Gage</td><td>Pre-1700s, France</td><td>PA colonial favorite; sweet, green flesh</td></tr>
+            <tr><td>Damson</td><td>Pre-1800s, England</td><td>Grown in PA for preserves; tart, purple (Roughwood)</td></tr>
+        </table>
+    </div>
+
+    <div class="fruit">
+        <h2 id="pomegranates">Pomegranates</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Wonderful</td><td>Pre-1900s, California</td><td>Peak CA variety in PA markets; sweet-tart</td></tr>
+            <tr><td>Angel Red</td><td>20th century, USA</td><td>Sold in PA; juicy, vibrant seeds</td></tr>
+        </table>
+    </div>
+
+    <div class="fruit">
+        <h2 id="quince">Quince</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Meech’s Prolific</td><td>Pre-1900s, USA</td><td>Grown in PA; heavy-bearing, fragrant fruit</td></tr>
+            <tr><td>Pineapple</td><td>Pre-1900s, USA</td><td>Grown in PA; sweet, pineapple-like flavor</td></tr>
+            <tr><td>Smyrna</td><td>Pre-1800s, Turkey</td><td>PA colonial variety; aromatic, tart (Seed Savers Exchange)</td></tr>
+        </table>
+    </div>
+
+    <div class="fruit">
+        <h2 id="raspberries">Raspberries</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Cuthbert</td><td>1865, New York</td><td>PA garden classic; red, sweet-tart native strain</td></tr>
+            <tr><td>Black Hawk</td><td>Pre-1900s, USA</td><td>Grown in PA; dark, rich berries, native lineage</td></tr>
+        </table>
+    </div>
+
+    <div class="fruit">
+        <h2 id="serviceberries">Serviceberries</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Allegheny</td><td>Pre-1900s, PA</td><td>Native PA variety; sweet, dark berries (Roughwood)</td></tr>
+            <tr><td>Thiessen</td><td>20th century, Canada</td><td>Grown in PA; large, juicy fruit, native cultivar</td></tr>
+        </table>
+    </div>
+
+    <div class="fruit">
+        <h2 id="strawberries">Strawberries</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Fairfax</td><td>1923, USA</td><td>PA growers' pick for rich flavor; Seed Savers Exchange</td></tr>
+            <tr><td>Sparkle</td><td>1942, New Jersey</td><td>Grown widely in PA; small, sweet berries</td></tr>
+        </table>
+    </div>
+
+    <div class="fruit">
+        <h2 id="tangerines">Tangerines</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Dancy</td><td>1867, Florida</td><td>Peak FL variety in PA markets; sweet, juicy</td></tr>
+            <tr><td>Honey</td><td>Pre-1900s, USA</td><td>Sold in PA; extra-sweet, orange flesh</td></tr>
+        </table>
+    </div>
+
+    <!-- Herbs/Spices -->
+    <div class="herb">
+        <h2 id="agastache">Agastache</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Anise Hyssop</td><td>Pre-1900s, North America</td><td>Native PA strain; licorice-flavored leaves (Roughwood)</td></tr>
+            <tr><td>Golden Jubilee</td><td>20th century, USA</td><td>Grown in PA gardens; vibrant, aromatic</td></tr>
+        </table>
+    </div>
+
+    <div class="herb">
+        <h2 id="chickweed">Chickweed</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Common Chickweed</td><td>Pre-1900s, North America</td><td>Native PA wild variety; tender, mild greens</td></tr>
+        </table>
+    </div>
+
+    <div class="herb">
+        <h2 id="chives">Chives</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Common Chives</td><td>Pre-1800s, Europe</td><td>Grown in PA colonial gardens; mild onion flavor</td></tr>
+            <tr><td>Garlic Chives</td><td>Pre-1900s, Asia</td><td>PA gardeners' choice; garlic-scented (Seed Savers Exchange)</td></tr>
+        </table>
+    </div>
+
+    <div class="herb">
+        <h2 id="cilantro-leaves">Cilantro (Leaves)</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Slow Bolt</td><td>Pre-1900s, USA</td><td>Grown in PA for cool-season resilience; Seed Savers Exchange</td></tr>
+            <tr><td>Santo</td><td>20th century, USA</td><td>PA gardeners' pick; fresh, vibrant leaves</td></tr>
+        </table>
+    </div>
+
+    <div class="herb">
+        <h2 id="coriander-seeds">Coriander (Seeds)</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Slow Bolt</td><td>Pre-1900s, USA</td><td>Grown in PA; seeds from bolted cilantro plants</td></tr>
+            <tr><td>Santo</td><td>20th century, USA</td><td>PA gardeners' choice; aromatic, storable seeds</td></tr>
+        </table>
+    </div>
+
+    <div class="herb">
+        <h2 id="cyperus-longus">Cyperus longus</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Sweet Galingale</td><td>Pre-1800s, Europe</td><td>Native PA strain; aromatic rhizomes, medieval spice (Roughwood)</td></tr>
+        </table>
+    </div>
+
+    <div class="herb">
+        <h2 id="dandelion-greens">Dandelion Greens</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Common Dandelion</td><td>Pre-1900s, North America</td><td>Native PA wild variety; bitter, nutritious leaves</td></tr>
+            <tr><td>Amélioré</td><td>Pre-1900s, France</td><td>Grown in PA gardens; larger, tender leaves</td></tr>
+        </table>
+    </div>
+
+    <div class="herb">
+        <h2 id="garlic">Garlic</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>German Red</td><td>Pre-1900s, Germany</td><td>Cultivated by PA Dutch in southeast PA; spicy, robust</td></tr>
+            <tr><td>Killarney Red</td><td>Pre-1900s, USA</td><td>Sourced from PA growers; adapted for local winters (Seed Savers Exchange)</td></tr>
+        </table>
+    </div>
+
+    <div class="herb">
+        <h2 id="english-lavender">Lavender (English)</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Munstead</td><td>1916, England</td><td>Grown in PA gardens; compact, fragrant (Seed Savers Exchange)</td></tr>
+            <tr><td>Hidcote</td><td>Pre-1900s, England</td><td>PA favorite; deep purple, culinary use</td></tr>
+        </table>
+    </div>
+
+    <div class="herb">
+        <h2 id="monarda">Monarda</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Monarda didyma</td><td>Pre-1900s, North America</td><td>Native PA bee balm; minty-oregano leaves (Roughwood)</td></tr>
+            <tr><td>Panorama Red Shades</td><td>20th century, USA</td><td>Grown in PA gardens; vibrant, edible flowers</td></tr>
+        </table>
+    </div>
+
+    <div class="herb">
+        <h2 id="mountain-mint">Mountain Mint</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Pycnanthemum muticum</td><td>Pre-1900s, North America</td><td>Native PA variety; minty leaves (Roughwood)</td></tr>
+            <tr><td>Virginia Mountain Mint</td><td>Pre-1900s, USA</td><td>Grown in PA; strong, aromatic foliage</td></tr>
+        </table>
+    </div>
+
+    <div class="herb">
+        <h2 id="nettles">Nettles</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Stinging Nettle</td><td>Pre-1900s, North America</td><td>Native PA wild variety; nutritious, earthy greens</td></tr>
+        </table>
+    </div>
+    <div class="herb">
+        <h2 id="nj-tea">NJ Tea</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Ceanothus americanus</td><td>Pre-1900s, North America</td><td>Native PA variety; tea substitute in Revolutionary War</td></tr>
+        </table>
+    </div>
+
+    <div class="herb">
+        <h2 id="parsley">Parsley</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Italian Flat Leaf</td><td>Pre-1800s, Italy</td><td>Grown by PA's Italian immigrants; robust flavor</td></tr>
+            <tr><td>Moss Curled</td><td>Pre-1800s, England</td><td>PA colonial garden staple; curly, aromatic (Seed Savers Exchange)</td></tr>
+        </table>
+    </div>
+
+    <div class="herb">
+        <h2 id="ramps">Ramps</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Allium tricoccum</td><td>Pre-1900s, North America</td><td>Native PA wild leek; foraged in spring woodlands</td></tr>
+        </table>
+    </div>
+
+    <div class="herb">
+        <h2 id="sassafras">Sassafras</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Sassafras albidum</td><td>Pre-1900s, North America</td><td>Native PA variety; root beer-flavored roots</td></tr>
+        </table>
+    </div>
+
+    <div class="herb">
+        <h2 id="spicebush">Spicebush</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Lindera benzoin</td><td>Pre-1900s, North America</td><td>Native PA shrub; allspice-flavored berries (Roughwood)</td></tr>
+        </table>
+    </div>
+
+    <div class="herb">
+        <h2 id="sumac">Sumac</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Rhus glabra</td><td>Pre-1900s, North America</td><td>Native PA smooth sumac; tart berries for spice</td></tr>
+            <tr><td>Rhus typhina</td><td>Pre-1900s, North America</td><td>Native PA staghorn sumac; lemony, red cones</td></tr>
+        </table>
+    </div>
+
+    <div class="herb">
+        <h2 id="sweet-cicely">Sweet Cicely</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Osmorhiza claytonii</td><td>Pre-1900s, North America</td><td>Native PA variety; anise-flavored leaves, roots</td></tr>
+        </table>
+    </div>
+
+    <div class="herb">
+        <h2 id="sweet-woodruff">Sweet Woodruff</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Galium odoratum</td><td>Pre-1900s, Europe</td><td>Naturalized in PA; sweet, hay-like leaves for drinks</td></tr>
+        </table>
+    </div>
+
+    <div class="herb">
+        <h2 id="wild-garlic">Wild Garlic</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Allium vineale</td><td>Pre-1900s, North America</td><td>Native PA wild variety; mild garlic flavor</td></tr>
+        </table>
+    </div>
+
+    <div class="herb">
+        <h2 id="wood-sorrel">Wood Sorrel</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Oxalis montana</td><td>Pre-1900s, North America</td><td>Native PA variety; lemony leaves</td></tr>
+        </table>
+    </div>
+
+    <!-- Nuts -->
+    <div class="nut">
+        <h2 id="hazelnuts">Hazelnuts</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>American Hazelnut</td><td>Pre-1900s, North America</td><td>Native PA variety (Corylus americana); sweet, small nuts</td></tr>
+            <tr><td>Jefferson</td><td>20th century, USA</td><td>Grown in PA; larger, hybrid native strain</td></tr>
+        </table>
+    </div>
+
+    <div class="nut">
+        <h2 id="walnuts">Walnuts</h2>
+        <table>
+            <tr><th>Name</th><th>Origin</th><th>PA Connection</th></tr>
+            <tr><td>Thomas</td><td>Pre-1900s, USA</td><td>Grown in PA; large, mild English walnut</td></tr>
+            <tr><td>Carpathian</td><td>Pre-1900s, Eastern Europe</td><td>PA gardeners' choice; hardy English strain (Seed Savers Exchange)</td></tr>
+        </table>
+    </div>
+</body>
+</html>
