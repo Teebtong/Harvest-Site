@@ -8,36 +8,12 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
-            padding-top: 80px; /* Add space for fixed header */
-        }
-        .header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            background-color: white;
-            padding: 15px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            z-index: 1000;
-            text-align: center;
         }
         h1 {
             text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-        .header a {
-            text-decoration: none;
-            color: #1a73e8;
-            margin-top: 5px;
-            display: inline-block;
-        }
-        .header a:hover {
-            text-decoration: underline;
         }
         h2 {
             margin-top: 40px;
-            scroll-margin-top: 100px;
         }
         ul {
             list-style-type: none;
@@ -53,7 +29,7 @@
             color: #800080; /* Purple */
         }
         .herb {
-            color: #d44f08; /* Darker marigold */
+            color: #B8860B; /* Darker marigold */
         }
         .nut {
             color: #5C4033; /* Chocolate brown */
@@ -68,13 +44,8 @@
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>Crops by Month - Zone 6</h1>
-        <div>
-            <a href="harvest-sched.html">Harvest Schedule</a> | 
-            <a href="heirlooms.html">Heirloom Varieties</a>
-        </div>
-    </div>
+    <h1>Crops by Month - Zone 6</h1>
+    <p><a href="harvest-sched.html">Back to Harvest Schedule</a></p>
 
     <h2 id="january">January</h2>
     <ul>
@@ -89,7 +60,7 @@
         <li class="fruit">Kiwi</li>
         <li class="fruit">Lemons</li>
         <li class="fruit">Mandarins</li>
-        <li class="veg">Onions</li>
+        <li class="herb">Onions</li>
         <li class="veg">Parsnips</li>
         <li class="fruit">Pears</li>
         <li class="veg">Potatoes</li>
@@ -145,14 +116,17 @@
         <li class="veg">Cress</li>
         <li class="herb">Cyperus longus</li>
         <li class="herb">Dandelion Greens</li>
+        <li class="herb">English Lavender</li>
         <li class="veg">Kale (Overwintered)</li>
         <li class="veg">Leeks</li>
         <li class="fruit">Lemons</li>
         <li class="herb">Nettles</li>
+        <li class="herb">NJ Tea</li>
         <li class="veg">Parsnips</li>
         <li class="fruit">Pears</li>
         <li class="veg">Rhubarb</li>
         <li class="veg">Spinach (Overwintered)</li>
+        <li class="herb">Sweet Woodruff</li>
         <li class="fruit">Tangerines</li>
         <li class="herb">Wild Garlic</li>
     </ul>
@@ -160,23 +134,24 @@
     <h2 id="april">April</h2>
     <ul>
         <li class="veg">Asparagus</li>
-        <li class="veg">Cress</li>
-        <li class="veg">Endive/Frisée</li>
-        <li class="veg">Kale (Overwintered)</li>
-        <li class="veg">Leeks</li>
-        <li class="veg">Rhubarb</li>
-        <li class="veg">Spinach (Overwintered)</li>
         <li class="fruit">Avocados</li>
-        <li class="fruit">Limes</li>
+        <li class="veg">Carrots</li>
         <li class="herb">Chickweed</li>
         <li class="herb">Chives</li>
+        <li class="veg">Cress</li>
         <li class="herb">Cyperus longus</li>
         <li class="herb">Dandelion Greens</li>
         <li class="herb">English Lavender</li>
-        <li class="herb">NJ Tea</li>
+        <li class="veg">Endive/Frisée</li>
+        <li class="veg">Kale (Overwintered)</li>
+        <li class="veg">Leeks</li>
+        <li class="fruit">Limes</li>
         <li class="herb">Nettles</li>
+        <li class="herb">NJ Tea</li>
         <li class="herb">Parsley</li>
         <li class="herb">Ramps</li>
+        <li class="veg">Rhubarb</li>
+        <li class="veg">Spinach (Overwintered)</li>
         <li class="herb">Sweet Cicely</li>
         <li class="herb">Sweet Woodruff</li>
         <li class="herb">Wood Sorrel</li>
@@ -186,170 +161,213 @@
     <ul>
         <li class="veg">Arugula</li>
         <li class="veg">Asparagus</li>
+        <li class="herb">Agastache</li>
         <li class="veg">Bok Choy</li>
+        <li class="veg">Carrots</li>
+        <li class="herb">Chickweed</li>
+        <li class="herb">Chives</li>
         <li class="veg">Collard Greens</li>
         <li class="veg">Cress</li>
         <li class="veg">Endive/Frisée</li>
         <li class="veg">Kohlrabi</li>
-        <li class="veg">Mizuna</li>
-        <li class="veg">Mustard Greens</li>
-        <li class="veg">Radishes</li>
-        <li class="veg">Rhubarb</li>
-        <li class="veg">Swiss Chard</li>
-        <li class="veg">Turnip Greens</li>
         <li class="fruit">Limes</li>
-        <li class="fruit">Strawberries</li>
-        <li class="herb">Agastache</li>
-        <li class="herb">Chickweed</li>
-        <li class="herb">Chives</li>
-        <li class="herb">English Lavender</li>
+        <li class="veg">Mizuna</li>
         <li class="herb">Monarda</li>
         <li class="herb">Mountain Mint</li>
-        <li class="herb">NJ Tea</li>
+        <li class="veg">Mustard Greens</li>
         <li class="herb">Parsley</li>
         <li class="herb">Ramps</li>
+        <li class="veg">Rhubarb</li>
+        <li class="veg">Radishes</li>
         <li class="herb">Sweet Cicely</li>
+        <li class="veg">Swiss Chard</li>
+        <li class="veg">Turnip Greens</li>
         <li class="herb">Sweet Woodruff</li>
         <li class="herb">Wild Garlic</li>
+        <li class="herb">Wood Sorrel</li>
+        <li class="fruit">Strawberries</li>
+    </ul>
+
+    <h2 id="june">June</h2>
+    <ul>
+        <li class="veg">Arugula</li>
+        <li class="veg">Asparagus</li>
+        <li class="herb">Agastache</li>
+        <li class="veg">Bok Choy</li>
+        <li class="veg">Carrots</li>
+        <li class="veg">Celery</li>
+        <li class="fruit">Cherries</li>
+        <li class="herb">Chives</li>
+        <li class="veg">Collard Greens</li>
+        <li class="veg">Endive/Frisée</li>
+        <li class="herb">Garlic</li>
+        <li class="veg">Kohlrabi</li>
+        <li class="fruit">Limes</li>
+        <li class="herb">Lovage</li>
+        <li class="veg">Lettuce</li>
+        <li class="veg">Mizuna</li>
+        <li class="herb">Monarda</li>
+        <li class="herb">Mountain Mint</li>
+        <li class="veg">Mustard Greens</li>
+        <li class="herb">Parsley</li>
+        <li class="veg">Peas</li>
+        <li class="veg">Radishes</li>
+        <li class="fruit">Raspberries</li>
+        <li class="fruit">Serviceberries</li>
+        <li class="veg">Spinach</li>
+        <li class="fruit">Strawberries</li>
+        <li class="herb">Sweet Cicely</li>
+        <li class="veg">Swiss Chard</li>
+        <li class="veg">Turnip Greens</li>
+        <li class="veg">Turnips</li>
         <li class="herb">Wood Sorrel</li>
     </ul>
 
     <h2 id="july">July</h2>
     <ul>
-        <li class="veg">Cucumbers</li>
-        <li class="veg">Green Beans</li>
-        <li class="veg">Lettuce</li>
-        <li class="veg">Peas</li>
-        <li class="veg">Potatoes</li>
-        <li class="veg">Spinach</li>
-        <li class="veg">Sweet Corn</li>
-        <li class="veg">Swiss Chard</li>
-        <li class="veg">Tomatoes</li>
-        <li class="veg">Turnips</li>
-        <li class="veg">Zucchini/Summer Squash</li>
+        <li class="herb">Agastache</li>
         <li class="fruit">Blackberries</li>
         <li class="fruit">Blueberries</li>
         <li class="fruit">Cherries</li>
-        <li class="fruit">Peaches</li>
-        <li class="fruit">Plums</li>
-        <li class="fruit">Raspberries</li>
-        <li class="fruit">Serviceberries</li>
-        <li class="fruit">Strawberries</li>
-        <li class="herb">Agastache</li>
         <li class="herb">Chives</li>
+        <li class="veg">Celery</li>
+        <li class="veg">Cucumbers</li>
         <li class="herb">Garlic</li>
+        <li class="veg">Green Beans</li>
+        <li class="veg">Lettuce</li>
+        <li class="herb">Lovage</li>
         <li class="herb">Monarda</li>
         <li class="herb">Mountain Mint</li>
         <li class="herb">Onions</li>
         <li class="herb">Parsley</li>
+        <li class="veg">Peas</li>
+        <li class="fruit">Peaches</li>
+        <li class="fruit">Plums</li>
+        <li class="veg">Potatoes</li>
+        <li class="fruit">Raspberries</li>
+        <li class="fruit">Serviceberries</li>
+        <li class="veg">Spinach</li>
+        <li class="fruit">Strawberries</li>
+        <li class="veg">Sweet Corn</li>
+        <li class="veg">Swiss Chard</li>
         <li class="herb">Sumac</li>
+        <li class="veg">Tomatoes</li>
+        <li class="veg">Turnips</li>
         <li class="herb">Wood Sorrel</li>
+        <li class="veg">Zucchini/Summer Squash</li>
     </ul>
 
     <h2 id="august">August</h2>
     <ul>
-        <li class="veg">Cucumbers</li>
-        <li class="veg">Eggplant</li>
-        <li class="veg">Green Beans</li>
-        <li class="veg">Peppers</li>
-        <li class="veg">Potatoes</li>
-        <li class="veg">Sweet Corn</li>
-        <li class="veg">Swiss Chard</li>
-        <li class="veg">Tomatoes</li>
-        <li class="veg">Zucchini/Summer Squash</li>
+        <li class="herb">Agastache</li>
         <li class="fruit">Apples</li>
         <li class="fruit">Blackberries</li>
         <li class="fruit">Blueberries</li>
+        <li class="veg">Celery</li>
+        <li class="veg">Cucumbers</li>
         <li class="fruit">Elderberries</li>
+        <li class="veg">Eggplant</li>
+        <li class="veg">Green Beans</li>
         <li class="fruit">Melons</li>
-        <li class="fruit">Pawpaws</li>
-        <li class="fruit">Peaches</li>
-        <li class="fruit">Plums</li>
-        <li class="fruit">Raspberries</li>
-        <li class="herb">Agastache</li>
         <li class="herb">Monarda</li>
         <li class="herb">Mountain Mint</li>
         <li class="herb">Onions</li>
+        <li class="fruit">Pawpaws</li>
+        <li class="fruit">Peaches</li>
+        <li class="veg">Peppers</li>
+        <li class="fruit">Plums</li>
+        <li class="veg">Potatoes</li>
+        <li class="fruit">Raspberries</li>
         <li class="herb">Spicebush</li>
+        <li class="veg">Sweet Corn</li>
+        <li class="veg">Swiss Chard</li>
         <li class="herb">Sumac</li>
+        <li class="veg">Tomatoes</li>
         <li class="herb">Wood Sorrel</li>
+        <li class="veg">Zucchini/Summer Squash</li>
     </ul>
 
     <h2 id="september">September</h2>
     <ul>
+        <li class="fruit">Apples</li>
         <li class="veg">Arugula</li>
         <li class="veg">Bok Choy</li>
         <li class="veg">Broccoli</li>
         <li class="veg">Cress</li>
         <li class="veg">Cucumbers</li>
+        <li class="fruit">Elderberries</li>
         <li class="veg">Eggplant</li>
         <li class="veg">Endive/Frisée</li>
+        <li class="fruit">Grapes</li>
         <li class="veg">Green Beans</li>
+        <li class="nut">Hazelnuts</li>
         <li class="veg">Kohlrabi</li>
+        <li class="fruit">Melons</li>
         <li class="veg">Mizuna</li>
         <li class="veg">Mustard Greens</li>
+        <li class="fruit">Pawpaws</li>
+        <li class="fruit">Pears</li>
         <li class="veg">Peppers</li>
+        <li class="fruit">Plums</li>
         <li class="veg">Potatoes</li>
         <li class="veg">Sweet Corn</li>
         <li class="veg">Sweet Potatoes</li>
         <li class="veg">Swiss Chard</li>
+        <li class="herb">Sumac</li>
         <li class="veg">Tomatoes</li>
         <li class="veg">Turnip Greens</li>
         <li class="veg">Zucchini/Summer Squash</li>
-        <li class="fruit">Elderberries</li>
-        <li class="fruit">Grapes</li>
-        <li class="fruit">Melons</li>
-        <li class="fruit">Pawpaws</li>
-        <li class="fruit">Pears</li>
-        <li class="fruit">Plums</li>
-        <li class="nut">Hazelnuts</li>
-        <li class="herb">Sumac</li>
     </ul>
 
     <h2 id="october">October</h2>
     <ul>
+        <li class="fruit">Apples</li>
         <li class="veg">Arugula</li>
+        <li class="veg">Beets</li>
         <li class="veg">Bok Choy</li>
         <li class="veg">Broccoli</li>
         <li class="veg">Brussels Sprouts</li>
         <li class="veg">Cabbage</li>
+        <li class="veg">Carrots</li>
         <li class="veg">Celeriac</li>
+        <li class="veg">Celery</li>
         <li class="veg">Collard Greens</li>
         <li class="veg">Cress</li>
+        <li class="herb">Cyperus longus</li>
         <li class="veg">Endive/Frisée</li>
+        <li class="fruit">Grapes</li>
+        <li class="fruit">Grapefruit</li>
+        <li class="nut">Hazelnuts</li>
         <li class="veg">Kale</li>
         <li class="veg">Kohlrabi</li>
+        <li class="herb">Lovage</li>
         <li class="veg">Mizuna</li>
         <li class="veg">Mustard Greens</li>
+        <li class="fruit">Oranges</li>
+        <li class="fruit">Pawpaws</li>
+        <li class="fruit">Pears</li>
         <li class="veg">Peppers</li>
+        <li class="fruit">Pomegranates</li>
         <li class="veg">Potatoes</li>
         <li class="veg">Pumpkins</li>
+        <li class="fruit">Quince</li>
         <li class="veg">Radishes</li>
         <li class="veg">Rutabaga</li>
         <li class="veg">Salsify</li>
+        <li class="herb">Sassafras</li>
+        <li class="herb">Spicebush</li>
         <li class="veg">Sweet Potatoes</li>
         <li class="veg">Swiss Chard</li>
         <li class="veg">Tomatoes</li>
         <li class="veg">Turnip Greens</li>
         <li class="veg">Turnips</li>
-        <li class="veg">Winter Squash</li>
-        <li class="fruit">Apples</li>
-        <li class="fruit">Grapefruit</li>
-        <li class="fruit">Grapes</li>
-        <li class="fruit">Oranges</li>
-        <li class="fruit">Pawpaws</li>
-        <li class="fruit">Pears</li>
-        <li class="fruit">Pomegranates</li>
-        <li class="fruit">Quince</li>
-        <li class="nut">Hazelnuts</li>
         <li class="nut">Walnuts</li>
-        <li class="herb">Cyperus longus</li>
-        <li class="herb">Sassafras</li>
-        <li class="herb">Spicebush</li>
+        <li class="veg">Winter Squash</li>
     </ul>
 
     <h2 id="november">November</h2>
     <ul>
+        <li class="fruit">Apples</li>
         <li class="veg">Beets</li>
         <li class="veg">Brussels Sprouts</li>
         <li class="veg">Cabbage</li>
@@ -357,61 +375,60 @@
         <li class="veg">Celeriac</li>
         <li class="veg">Collard Greens</li>
         <li class="veg">Cress</li>
+        <li class="fruit">Grapefruit</li>
+        <li class="nut">Hazelnuts</li>
         <li class="veg">Kale</li>
+        <li class="fruit">Kiwi</li>
         <li class="veg">Kohlrabi</li>
+        <li class="fruit">Mandarins</li>
         <li class="veg">Mustard Greens</li>
+        <li class="fruit">Oranges</li>
+        <li class="fruit">Pears</li>
+        <li class="fruit">Pomegranates</li>
         <li class="veg">Pumpkins</li>
+        <li class="fruit">Quince</li>
         <li class="veg">Radishes</li>
         <li class="veg">Rutabaga</li>
         <li class="veg">Salsify</li>
+        <li class="herb">Spicebush</li>
+        <li class="herb">Sumac</li>
         <li class="veg">Sweet Potatoes</li>
         <li class="veg">Swiss Chard</li>
         <li class="veg">Turnip Greens</li>
         <li class="veg">Turnips</li>
-        <li class="veg">Winter Squash</li>
-        <li class="fruit">Apples</li>
-        <li class="fruit">Grapefruit</li>
-        <li class="fruit">Kiwi</li>
-        <li class="fruit">Mandarins</li>
-        <li class="fruit">Oranges</li>
-        <li class="fruit">Pears</li>
-        <li class="fruit">Pomegranates</li>
-        <li class="fruit">Quince</li>
-        <li class="nut">Hazelnuts</li>
         <li class="nut">Walnuts</li>
-        <li class="herb">Spicebush</li>
-        <li class="herb">Sumac</li>
+        <li class="veg">Winter Squash</li>
     </ul>
 
     <h2 id="december">December</h2>
     <ul>
+        <li class="fruit">Apples</li>
         <li class="veg">Beets</li>
         <li class="veg">Brussels Sprouts</li>
         <li class="veg">Cabbage</li>
         <li class="veg">Carrots</li>
         <li class="veg">Celeriac</li>
-        <li class="veg">Potatoes</li>
-        <li class="veg">Pumpkins</li>
-        <li class="veg">Radishes</li>
-        <li class="veg">Rutabaga</li>
-        <li class="veg">Salsify</li>
-        <li class="veg">Sweet Potatoes</li>
-        <li class="veg">Turnips</li>
-        <li class="veg">Winter Squash</li>
-        <li class="fruit">Apples</li>
         <li class="fruit">Grapefruit</li>
+        <li class="nut">Hazelnuts</li>
         <li class="fruit">Kiwi</li>
         <li class="fruit">Mandarins</li>
+        <li class="herb">Onions</li>
         <li class="fruit">Oranges</li>
         <li class="fruit">Pears</li>
         <li class="fruit">Pomegranates</li>
+        <li class="veg">Potatoes</li>
+        <li class="veg">Pumpkins</li>
         <li class="fruit">Quince</li>
-        <li class="fruit">Tangerines</li>
-        <li class="nut">Hazelnuts</li>
-        <li class="nut">Walnuts</li>
-        <li class="herb">Onions</li>
+        <li class="veg">Radishes</li>
+        <li class="veg">Rutabaga</li>
+        <li class="veg">Salsify</li>
         <li class="herb">Spicebush</li>
         <li class="herb">Sumac</li>
+        <li class="veg">Sweet Potatoes</li>
+        <li class="fruit">Tangerines</li>
+        <li class="veg">Turnips</li>
+        <li class="nut">Walnuts</li>
+        <li class="veg">Winter Squash</li>
     </ul>
 </body>
 </html>
